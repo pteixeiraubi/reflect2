@@ -45,7 +45,7 @@ func (type2 *unsafeType) UnsafeIsNil(ptr unsafe.Pointer) bool {
 }
 
 func (type2 *unsafeType) UnsafeNew() unsafe.Pointer {
-	return unsafe_New(type2.rtype)
+	return unsafe__New(type2.rtype)
 }
 
 func (type2 *unsafeType) New() interface{} {
